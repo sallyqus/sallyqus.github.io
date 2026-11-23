@@ -1,337 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-    
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <title>
-     Sally&#39;s blog
-  </title>
-  
-  <link rel="shortcut icon" href="/favicon.ico" />
-  
-  <link rel="stylesheet" href="/css/style.css">  <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">  <script src="/js/pace.min.js"></script>
-
-  
-
-  
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#152a52">
+  <title>Sisi Qu | AI Research & Product Leadership</title>
+  <meta name="description" content="Sisi Qu (Sally), DPhil researcher at the University of Oxford and AI leader. Exploring AI for scientific discovery, genomics, and real-world systems.">
+  <link rel="canonical" href="https://sallyqus.github.io/">
+  <meta property="og:url" content="https://sallyqus.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sisi Qu | AI Research &amp; Product Leadership">
+  <meta property="og:description" content="Sisi Qu (Sally), DPhil researcher at the University of Oxford and AI leader. Exploring AI for scientific discovery, genomics, and real-world systems.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
-
-</html>
-
 <body>
-  <div id="app">
-    <main class="content">
-      
-<section class="cover">
-  <div class="cover-frame">
-    <div class="bg-box">
-      <img src="/images/cover1.jpg" alt="image frame" />
-    </div>
-    <div class="cover-inner text-center text-white">
-      <h1><a href="/">Sally&#39;s blog</a></h1>
-      <h2>Hello, world!</h2>
-      <div>
-        
-      </div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="wordmark" href="#home" aria-label="Sisi Qu, home">SQ<span>.</span></a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="#about">About</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#beyond">Beyond work</a>
+  </nav>
+  <div class="header-actions"><a class="contact-nav" href="#contact">Let’s connect</a><button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-nav">Menu</button></div>
+</header>
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden><a href="#about">About</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#beyond">Beyond work</a><a href="#contact">Let’s connect</a></nav>
+<main id="main">
+<section class="hero wrap" id="home">
+  <div class="hero-top"><p class="eyebrow">AI RESEARCH · PRODUCT DEVELOPMENT</p><p class="location">Oxford, United Kingdom</p></div>
+  <div class="hero-grid">
+    <div class="hero-copy"><div class="name-line"><h1>Sisi Qu<span class="name-dot">.</span></h1><span class="also-name">(Sally)</span></div><h2>From scientific questions<br>to intelligent systems.</h2><p class="hero-summary">I work at the intersection of AI, genomics, and product development—connecting research with systems people can use.</p><div class="hero-links"><a class="button primary" href="#research">Explore my research</a><a class="text-link" href="assets/Sisi-Qu-CV.pdf" target="_blank" rel="noopener">CV (PDF)</a></div></div>
+    <div class="research-art" aria-label="Conceptual illustration connecting genomics, AI agents, and applied systems" role="img">
+      <svg viewBox="0 0 480 440" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs><radialGradient id="halo"><stop stop-color="#c8d3ff" stop-opacity=".7"/><stop offset="1" stop-color="#f3f5fc" stop-opacity="0"/></radialGradient><linearGradient id="sphere" x1="0" x2="1" y2="1"><stop stop-color="#5276ef"/><stop offset="1" stop-color="#193987"/></linearGradient><pattern id="dots" width="23" height="23" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".9" fill="#b5bfd6" opacity=".5"/></pattern></defs>
+        <circle cx="240" cy="226" r="210" fill="url(#halo)"/>
+        <g fill="none" stroke="#aab8d8" stroke-width="1"><ellipse cx="242" cy="220" rx="172" ry="135" transform="rotate(-27 242 220)"/><ellipse cx="242" cy="220" rx="137" ry="173" transform="rotate(-27 242 220)"/><circle cx="242" cy="220" r="91" stroke-dasharray="3 7"/></g>
+        <g stroke="#829acb" stroke-width="1.2" fill="none"><path d="M100 158L156 132L193 167L242 220L321 131L370 160L351 206L242 220L292 310L241 343L192 315L242 220L124 276L100 158M156 132L169 226L124 276L192 315M193 167L169 226L242 220M321 131L351 206M292 310L354 280L351 206M124 276L169 226"/></g>
+        <g fill="#fff" stroke="#7f98d0" stroke-width="1.5"><circle cx="100" cy="158" r="7"/><circle cx="156" cy="132" r="5"/><circle cx="193" cy="167" r="8"/><circle cx="169" cy="226" r="6"/><circle cx="124" cy="276" r="8"/><circle cx="192" cy="315" r="6"/><circle cx="241" cy="343" r="7"/><circle cx="292" cy="310" r="6"/><circle cx="354" cy="280" r="8"/><circle cx="351" cy="206" r="6"/><circle cx="370" cy="160" r="7"/><circle cx="321" cy="131" r="8"/></g>
+        <circle class="pulse-ring" cx="242" cy="220" r="44" fill="none" stroke="#5474d5" opacity=".25"/><circle cx="242" cy="220" r="34" fill="url(#sphere)"/>
+        <g fill="none" stroke="#dce5ff" stroke-width="1.4" opacity=".9"><path d="M229 199C258 209 226 231 255 241M255 199C226 209 258 231 229 241M233 203H251M235 212H249M235 228H249M233 237H251"/></g>
+        <circle class="orbit-dot" cx="81" cy="239" r="4" fill="#4168d7"/>
+        <g font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#334971"><rect x="38" y="69" width="118" height="32" rx="16" fill="#fff" stroke="#d9e0ef"/><text x="97" y="89" text-anchor="middle">GENOMICS</text><rect x="310" y="76" width="123" height="32" rx="16" fill="#fff" stroke="#d9e0ef"/><text x="371" y="96" text-anchor="middle">AGENTIC AI</text><rect x="280" y="351" width="153" height="32" rx="16" fill="#fff" stroke="#d9e0ef"/><text x="356" y="371" text-anchor="middle">APPLIED SYSTEMS</text></g>
+      </svg>
     </div>
   </div>
-  <div class="cover-learn-more">
-    <a href="#main" class="anchor"><i class="ri-arrow-down-line"></i></a>
-  </div>
+  <div class="affiliations"><div><span>RESEARCH</span><strong>University of Oxford</strong><p>DPhil · Genomic Medicine & Statistics</p></div><div><span>BUILDING</span><strong>OxValue AI</strong><p>Chief AI Officer & Interim COO</p></div><a class="scholar-link" href="https://scholar.google.com/citations?user=iOoaBZkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar<span>Publications & citations</span></a></div>
 </section>
-
-<div id="main">
-  <section class="outer">
-  <article class="articles">
-    
-    <h1 class="page-type-title"></h1>
-
-    
-    
-    <article id="post-hello-hexo" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2019/12/08/hello-hexo/"
-    >hello_hexo</a
-  >
-</h2>
-  
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2019/12/08/hello-hexo/" class="article-date">
-  <time datetime="2019-12-07T23:37:49.000Z" itemprop="datePublished">2019-12-08</time>
-</a>
-      
-    </div>
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-
-
-      
-
-      
-      
-      
-      <!-- 打赏 -->
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://sallyqus.github.io/2019/12/08/hello-hexo/" data-id="ck3w889p10001ymcw4we36g1t"
-        class="article-share-link">分享</a>
-      
-    </footer>
-
-  </div>
-
-  
-
-  
-  
-  
-
-  
-
-</article>
-    
-    <article id="post-hello-world" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2019/12/08/hello-world/"
-    >Hello World</a
-  >
-</h2>
-  
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2019/12/08/hello-world/" class="article-date">
-  <time datetime="2019-12-07T23:31:32.401Z" itemprop="datePublished">2019-12-08</time>
-</a>
-      
-    </div>
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-
-
-      
-
-      
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo server</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo generate</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-      <!-- 打赏 -->
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://sallyqus.github.io/2019/12/08/hello-world/" data-id="ck3w889ou0000ymcwav1a0t5l"
-        class="article-share-link">分享</a>
-      
-    </footer>
-
-  </div>
-
-  
-
-  
-  
-  
-
-  
-
-</article>
-    
-  </article>
-  
-
-  
-</section>
-</div>
-
-      <footer class="footer">
-  <div class="outer">
-    <ul class="list-inline">
-      <li>
-        &copy;
-        2015-2019
-        Sisi Qu
-      </li>
-      <li>
-        
-        
-        
-        <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a> by shenyu
-        
-      </li>
-    </ul>
-    <ul class="list-inline">
-      <li>
-        
-        
-        <ul class="list-inline">
-  
-  <li>UV:<span id="busuanzi_value_site_uv"></span></li>
-  
-  <li>PV:<span id="busuanzi_value_page_pv"></span></li>
-  
-</ul>
-        
-      </li>
-      <li>
-        <!-- cnzz统计 -->
-        
-        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
-        
-      </li>
-    </ul>
-  </div>
-</footer>
-    <div class="to_top">
-        <div class="totop" id="totop">
-  <i class="ri-arrow-up-line"></i>
-</div>
-      </div>
-    </main>
-    
-      <aside class="sidebar">
-        
-        <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-  <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="Sally&#39;s blog"></a>
-  </div>
-  
-  <ul class="nav nav-main">
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/">主页</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/archives">目录</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags">标签</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="http://shenyu-vip.lofter.com" target="_blank" rel="noopener">摄影</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">关于我</a>
-    </li>
-    
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      
-      <a class="nav-item-link nav-item-search"  title="Search">
-        <i class="ri-search-line"></i>
-      </a>
-      
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
-</div>
-</div>
-      </aside>
-      <script src="/js/jquery-2.0.3.min.js"></script>
-<script src="/js/jquery.justifiedGallery.min.js"></script>
-<script src="/js/lazyload.min.js"></script>
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
-
-  <script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script>
-  var ayerConfig = {
-    mathjax: true
-  }
-</script>
-
-<script src="/js/ayer.js"></script>
-
-
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-      tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-  });
-
-  MathJax.Hub.Queue(function() {
-      var all = MathJax.Hub.getAllJax(), i;
-      for(i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-  });
-</script>
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-
-  </div>
-</body>
-
-</html>
+<section class="about section wrap" id="about"><div class="section-label"><h2>About</h2></div><div class="about-content"><div class="about-body"><p>I’m a DPhil researcher in Genomic Medicine and Statistics at the University of Oxford, supported by a Wellcome Trust Doctoral Award. My work explores how machine learning can help us understand complex biological systems—from single-cell data to genetic perturbations.</p><p>Alongside research, I lead AI development at OxValue AI, an Oxford spin-out. I bring together technical, product, and operational work to turn AI capabilities into usable products. Previously, I was an early team member at Eigent AI.</p></div></div></section>
+<section class="research section wrap" id="research"><div class="section-heading"><div><h2>Selected research</h2></div><p class="heading-aside">AI for science, genomics, and graph learning.</p></div><div id="publications" class="publications"><article class="publication"><span class="pub-year">2026</span><div><h3>PerturbAgent: An Agentic AI System for Analysis and Prediction of Genetic Perturbations</h3><div class="pub-meta"><span class="pub-venue">AAAI 2026 · XAI4Science Workshop</span><span class="pub-role">Co-author</span></div><p>A multi-agent system combining genetic perturbation analysis, response prediction, and biological interpretation.</p></div><a class="paper-link" href="https://ora.ox.ac.uk/objects/uuid%3Aee9f614d-4c1e-4a5f-b493-d0af9d03033e" target="_blank" rel="noopener" aria-label="Read paper: PerturbAgent: An Agentic AI System for Analysis and Prediction of Genetic Perturbations">Paper</a></article>
+<article class="publication"><span class="pub-year">2026</span><div><h3>LLM-guided Acquisition for Pathway-specific Perturb-seq Design under Experimental Budgets</h3><div class="pub-meta"><span class="pub-venue">ICML 2026 · GenBio Workshop</span><span class="pub-role">Co-author</span></div><p>LLM-guided selection of genetic perturbation experiments under a limited budget, with pathway-aware biological rationales.</p></div><a class="paper-link" href="https://openreview.net/forum?id=Ii56BVBZjj" target="_blank" rel="noopener" aria-label="Read paper: LLM-guided Acquisition for Pathway-specific Perturb-seq Design under Experimental Budgets">Paper</a></article>
+<article class="publication"><span class="pub-year">2026</span><div><h3>Beyond Mean Shifts: Predicting Distributional Responses to Unseen Genetic Perturbations</h3><div class="pub-meta"><span class="pub-venue">ICLR 2026 · MLGenX Workshop</span><span class="pub-role">Co-author</span></div><p>Predicting gene-expression distributions for unseen perturbations, including variability beyond mean responses.</p></div><a class="paper-link" href="https://openreview.net/forum?id=TSrxbWcF7Q" target="_blank" rel="noopener" aria-label="Read paper: Beyond Mean Shifts: Predicting Distributional Responses to Unseen Genetic Perturbations">Paper</a></article>
+<article class="publication"><span class="pub-year">2023</span><div><h3>LIBRA: an adaptative integrative tool for paired single-cell multi-omics data</h3><div class="pub-meta"><span class="pub-venue">Quantitative Biology · 11(3)</span><span class="pub-role">Co-author</span></div><p>A deep-learning framework for integrating paired single-cell multi-omics data and predicting across modalities.</p></div><a class="paper-link" href="https://doi.org/10.15302/J-QB-022-0318" target="_blank" rel="noopener" aria-label="Read paper: LIBRA: an adaptative integrative tool for paired single-cell multi-omics data">Paper</a></article>
+<article class="publication"><span class="pub-year">2021</span><div><h3>VLG-Net: Video-Language Graph Matching Network for Video Grounding</h3><div class="pub-meta"><span class="pub-venue">ICCV 2021 · CVEU Workshop</span><span class="pub-role">Co-first author</span></div><p>Graph matching between video and language representations to locate moments described by natural-language queries.</p></div><a class="paper-link" href="https://openaccess.thecvf.com/content/ICCV2021W/CVEU/papers/Soldan_VLG-Net_Video-Language_Graph_Matching_Network_for_Video_Grounding_ICCVW_2021_paper.pdf" target="_blank" rel="noopener" aria-label="Read paper: VLG-Net: Video-Language Graph Matching Network for Video Grounding">Paper</a></article>
+<article class="publication"><span class="pub-year">2020</span><div><h3>Learning Heat Diffusion for Network Alignment</h3><div class="pub-meta"><span class="pub-venue">ICML 2020 · Computational Biology Workshop</span><span class="pub-role">First author</span></div><p>Learning evolutionary heat diffusion to align biological networks, with evaluation of accuracy, noise robustness, and scalability.</p></div><a class="paper-link" href="https://arxiv.org/abs/2007.05401" target="_blank" rel="noopener" aria-label="Read paper: Learning Heat Diffusion for Network Alignment">Paper</a></article></div><p class="research-footnote">Selected works; workshop venues are identified explicitly. See Google Scholar for the full publication list.</p></section>
+<section class="industry" id="experience"><div class="wrap section"><div class="section-heading"><div><h2>AI in practice</h2></div><p class="heading-aside">Product development, technical leadership, and delivery.</p></div><article class="featured-work"><div class="work-org"><p class="work-date">AUG 2025 — PRESENT</p><h3>OxValue AI</h3><p>Oxford spin-out · AI-powered valuation</p><span class="role-tag">Chief AI Officer & Interim COO</span><p class="role-note">Interim COO since September 2026</p></div><div class="work-detail"><h4>From AI capabilities to an integrated valuation platform.</h4><p>Led cross-functional delivery across data sourcing, automated workflows, valuation models, and reporting. The platform’s first version was delivered in August 2026, followed by a China/UK client beta in November.</p><ul class="work-highlights"><li>Built shared Data Enrichment and Search services across valuation products.</li><li>Coordinated testing, client feedback, and deployment.</li></ul></div></article><div class="past-work"><article><div><p class="work-date">APR 2024 — APR 2025</p><h3>Eigent AI</h3><p class="past-role">Early team · Product & Operations</p></div><p>Evaluated enterprise use cases, translated multi-agent AI capabilities into commercial applications, and coordinated product and business teams.</p></article><article><div><p class="work-date">OCT 2023 — FEB 2024</p><h3>China Securities</h3><p class="past-role">Healthcare Investment · Analyst Intern</p></div><p>Analysed financial disclosures and industry trends of listed healthcare companies to support sector and investment research.</p></article></div></div></section>
+<section class="education section wrap" id="education"><div class="section-label"><h2>Education</h2></div><div class="education-list"><article><span class="edu-year">Expected mid-2027</span><div><h3>University of Oxford</h3><p>DPhil, Genomic Medicine and Statistics</p><p class="edu-detail">Wellcome Trust Doctoral Award · Full scholarship</p></div></article><article><span class="edu-year">2019 — 2021</span><div><h3>KAUST</h3><p>Master’s studies · Bioinformatics & Machine Learning</p><p class="edu-detail">GPA 3.96/4.00 · Full scholarship</p></div></article><article><span class="edu-year">2014 — 2018</span><div><h3>China Pharmaceutical University</h3><p>Bachelor’s degree, Pharmacy</p><p class="edu-detail">GPA 4.00/4.00 · President’s Scholarship</p></div></article><div class="coursework"><span>ADDITIONAL STUDY</span><p>Georgia Institute of Technology · Graduate coursework in Computer Science (5 courses; GPA 3.75/4.00)</p></div></div></section>
+<section class="beyond section wrap" id="beyond"><div class="section-heading"><div><h2>Beyond research</h2></div><p class="heading-aside">Community, leadership, and interests.</p></div><div class="beyond-grid"><article class="community"><span class="mini-label">COMMUNITY & LEADERSHIP</span><p>As Executive Secretary-General of Oxford CSSA (2025–2026), I coordinated executive operations and student initiatives. Previously, as Head of Entrepreneurship, I led a competition that attracted more than 60 business plans.</p><div class="diving-note"><p>I also served as Treasurer & Expeditions Officer of the Oxford University Diving Society, managing budgets and organising overseas expeditions.</p></div></article><article class="recognition"><span class="mini-label">A FEW HIGHLIGHTS</span><ul><li><span>2025</span><div><strong>Oxford Poker Tournament</strong><p>First place</p></div></li><li><span>2022</span><div><strong>EMEA Women’s Wild Rift League</strong><p>Champion</p></div></li><li><span>2020</span><div><strong>Kaggle · RSNA Challenge</strong><p>Silver medal · Top 5%</p></div></li><li><span>2017</span><div><strong>iGEM</strong><p>Gold medal · Team captain</p></div></li></ul></article></div></section>
+<section class="contact section" id="contact"><div class="wrap contact-inner"><div><h2>Let’s connect.</h2><p>For research collaborations, AI products, or opportunities at the intersection of the two.</p></div><div class="contact-links"><a class="email-link" href="mailto:sisi.qu@msdtc.ox.ac.uk">sisi.qu@msdtc.ox.ac.uk</a><div class="contact-secondary"><a href="https://scholar.google.com/citations?user=iOoaBZkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><a href="assets/Sisi-Qu-CV.pdf" target="_blank" rel="noopener">CV (PDF)</a></div></div></div></section>
+</main><footer class="wrap"><span>© 2026 Sisi Qu</span><a href="#home">Back to top</a></footer>
+</body></html>
